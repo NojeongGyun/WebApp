@@ -8,3 +8,6 @@ SPA - single page Application (ex - 페이스북)
    
 MPA - multi page Application ( ex - 경성포탈) 
     옵션마다 페이지가 다 다름(링킹하여 페이지를 변환함)
+
+Node.js - 본래는 웹 브라우저(구글, 오페라 등)에서 자바 스크립트를 실행할 수 있게 해주는데 Node.js로도 가능하다
+
