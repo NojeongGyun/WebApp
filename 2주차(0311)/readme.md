@@ -28,8 +28,10 @@ p3 npm과 npx차이
          
 컨트롤  + / -> 주석처리
 
-
 리액트 폴더 안에 APP.js에서 변경만 하면 리액트 서버가 변경되서 나옴(node.js) (JSX)
 
-터미널에 		컨트롤 + c 는 서버를 죽임
-			npm start는 서버를 살림
+- 터미널 -
+npx create-react-app react-app-ex01 --use-npm  // react-app-ex01 폴더를 만든다
+cd react-app-ex01 // react-app-ex01 폴더안에 들어감
+npm start // 들어간 폴더의 리엑트를 실행
+ctrl + c // 리엑트 강제 종료
