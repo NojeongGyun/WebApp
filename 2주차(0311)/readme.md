@@ -39,6 +39,7 @@ React - SPA는 하나의 페이지에서 JavaScript를 이용하여 필요한 �
 - information - 
     ctrl + c : 리엑트 종료
     컨트롤  + / : 드래그한 내용 주석처리 
+
 JSX - JSX는0 JavaScript 코드 안에서 HTML과 유사한 문법으로 UI를 작성할 수 있게 해주는 React의 문법 확장입니다
       JSX는 자바스크립트도 아니고 HTML도 아니기에 Babel을 이용하여 javascript문으로 변환하여 실행시킵니다. JSX는 브라우저가 직접 해석할 수 없기에 Babel을 통해 java script로 변환시켜서 해석하게 해주는 것이며
       코드에서는 따로 JSX이라는 키워드 추가 없이 HTML와 유사한 형식으로 작성하면 자동으로 JavaScript로 변환됩니다.
