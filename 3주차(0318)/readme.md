@@ -15,8 +15,21 @@ scss가 더 많이 쓰임
       
       - 웹페이지 만드는 과정 -
       Dom트리 -> 스타일 규칙생성 -> Render tree생성 -> 레이아웃 -> 페인트
-      
 
+
+      /2024/01pdf - 25page
+      IIS(web server를 만드는 도구이고 windows에 기본적으로 깔려있음)
+      ASP (옛날꺼)
+
+      JSP
+      Tomcat (지금꺼)
+
+      PHP
+      Apache (옛날꺼)
+
+      
+      
+      
       
       
 </pre>
