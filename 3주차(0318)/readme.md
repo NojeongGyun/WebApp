@@ -36,6 +36,6 @@ scss가 더 많이 쓰임
 
       25page
       App.js -> index.js -> index.html 과정을 거치고 렌더링 되어 react 속성을 화면에 보여준다.
-      
+  (component)
       
 </pre>
