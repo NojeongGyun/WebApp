@@ -33,6 +33,9 @@ scss가 더 많이 쓰임
       
       /2024/03.pdf - 24page
       react를 사용하여 생성하면 Index.html, index.js, App.js 등이  public으로 폴더 및 파일로 생성됨
+
+      25page
+      App.js -> index.js -> index.html 과정을 거치고 렌더링 되어 react 속성을 화면에 보여준다.
       
       
 </pre>
