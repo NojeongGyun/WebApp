@@ -31,8 +31,8 @@ scss가 더 많이 쓰임
       build를 사용하여 폴더를 만들고, 포팅하여 서버를 연다면 서버는 build라는 명령을 사용하여 만든 폴더의 정보만으로 서버를 열 수 있다.
       
       
-      
-      
+      /2024/03.pdf - 24page
+      react를 사용하여 생성하면 Index.html, index.js, App.js 등이  public으로 폴더 및 파일로 생성됨
       
       
 </pre>
