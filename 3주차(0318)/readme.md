@@ -39,8 +39,10 @@ Head에서부터 시작하여 Body를 거쳐 스캔하기 때문에, 동적인 �
 
       
       - <strong>PHP</strong> -
+      PHP는 Hypertext Preprocessor의 줄임말입니다. HTML 안에 PHP 코드를 넣어 <strong>**Apache**</strong>로 동적 웹 페이지를 생성합니다.    
             
-            Apache
+            <strong>**Apache**</strong>
+                  PHP를 실행할 수 있는 웹 서버입니다.
       
 
       build를 사용하여 폴더를 만들고, 포팅하여 서버를 연다면 서버는 build라는 명령을 사용하여 만든 폴더의 정보만으로 서버를 열 수 있다.
