@@ -23,15 +23,21 @@ Head에서부터 시작하여 Body를 거쳐 스캔하기 때문에, 동적인 �
       
 <mark>웹 서버 기술</mark>
 
-      - <strong>IIS</strong> -
-            ASP
+      - <strong>IIS(</strong> -
+      IIS는 Internet Information Services 이며 마이크로소프트에서 제공하는 서버이고, 클라이언트의 HTTP/HTTPS의 요청을 받고 웹페이지를 서비스 해주는 서버 역활을 합니다.
+      동적인 기술을 넣고 싶을 떄 <strong>**ASP**</strong>라는 기술을 써 웹페이지를 동적이게 할 수 있습니다.
+
+            <strong>**ASP**</strong>
+                  
 
       
       - <strong>JSP</strong>-
+            
             Tomcat
 
             
       - <strong>PHP</strong> -
+            
             Apache
       
 
