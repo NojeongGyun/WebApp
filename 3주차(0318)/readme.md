@@ -23,17 +23,17 @@ Head에서부터 시작하여 Body를 거쳐 스캔하기 때문에, 동적인 �
       
 <mark>웹 서버 기술</mark>
 
+      - <strong>IIS</strong> -
+            ASP
 
       
-      /2024/01pdf - 25page
-      IIS(web server를 만드는 도구이고 windows에 기본적으로 깔려있음)
-      ASP (옛날꺼)
+      - <strong>JSP<strong> -
+            Tomcat
 
-      JSP
-      Tomcat (지금꺼)
-
-      PHP
-      Apache (옛날꺼)
+            
+      - <strong>PHP</strong> -
+            Apache
+      
 
       build를 사용하여 폴더를 만들고, 포팅하여 서버를 연다면 서버는 build라는 명령을 사용하여 만든 폴더의 정보만으로 서버를 열 수 있다.
       
