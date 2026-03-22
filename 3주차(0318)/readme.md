@@ -24,18 +24,19 @@ Head에서부터 시작하여 Body를 거쳐 스캔하기 때문에, 동적인 �
 <mark>웹 서버 기술</mark>
 
       - <strong>IIS(</strong> -
-      IIS는 Internet Information Services 이며 마이크로소프트에서 제공하는 서버이고, 클라이언트의 HTTP/HTTPS의 요청을 받고 웹페이지를 서비스 해주는 서버 역활을 합니다.
-      동적인 기술을 넣고 싶을 떄 <strong>**ASP**</strong>라는 기술을 써 웹페이지를 동적이게 할 수 있습니다.
+      IIS는 Internet Information Services의 줄임말입니다. 마이크로소프트에서 제공하는 서버이고, 클라이언트의 HTTP/HTTPS의 요청을 받고 웹페이지를 서비스 해주는 서버 역활을 합니다.
+      웹페이지에 동적인 기술을 넣고 싶을 떄 <strong>**ASP**</strong>라는 기술을 써 웹페이지를 동적이게 할 수 있습니다.
 
             <strong>**ASP**</strong>
-                  
+                  ASP는 Active Server Pages 이며 HTML 안에 VBScript나 JScript를 넣어 동적인 웹 페이지를 생성하게 해주는 IIS 위에서 동작하는 기술입니다.
 
       
       - <strong>JSP</strong>-
-            
-            Tomcat
-
-            
+      JSP는 JavaServer Pages의 줄임말입니다. Java 기반의 서버 사이드 기술이며, HTML 안에 Java 코드를 넣고 <strong>**Tomcat**</strong>로 동적인 웹 페이지를 생성합니다.
+      
+            <strong>**Tomcat**</strong>
+                  
+                  
       - <strong>PHP</strong> -
             
             Apache
