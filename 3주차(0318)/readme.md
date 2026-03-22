@@ -35,8 +35,9 @@ Head에서부터 시작하여 Body를 거쳐 스캔하기 때문에, 동적인 �
       JSP는 JavaServer Pages의 줄임말입니다. Java 기반의 서버 사이드 기술이며, HTML 안에 Java 코드를 넣고 <strong>**Tomcat**</strong>로 동적인 웹 페이지를 생성합니다.
       
             <strong>**Tomcat**</strong>
-                  
-                  
+                  Java 코드로 HTTP 요청을 직접 처리하는 서버 프로그램인 서블릿과 HTML을 자바코드로 짠 JSP를 브라우저 사이에서 요청을 받아 처리하고 결과를 전달하는 역할을 합니다.
+
+      
       - <strong>PHP</strong> -
             
             Apache
