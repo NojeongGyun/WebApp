@@ -31,7 +31,7 @@ Head에서부터 시작하여 Body를 거쳐 스캔하기 때문에, 동적인 �
                   ASP는 Active Server Pages 이며 HTML 안에 VBScript나 JScript를 넣어 동적인 웹 페이지를 생성하게 해주는 IIS 위에서 동작하는 기술입니다.
 
       
-      - <strong>JSP</strong>-
+      - <strong>JSP</strong> -
       JSP는 JavaServer Pages의 줄임말입니다. Java 기반의 서버 사이드 기술이며, HTML 안에 Java 코드를 넣고 <strong>**Tomcat**</strong>로 동적인 웹 페이지를 생성합니다.
       
             <strong>**Tomcat**</strong>
@@ -49,11 +49,17 @@ Bulid는 소스 코드와 관련 파일을 모아 실행 가능한 프로그램�
 예를 들어 c/c++ 파일의 형태를 띄는 .cpp를 컴파일하여 우리가 흔히 아는 실행 파일인 .exe가 만들어 집니다. 
 빌드 과정에서 소스 코드(.cpp 등)뿐만 아니라 프로그램 실행에 필요한 리소스나 설정 파일을 폴더 안에 포함시켜, 해당 폴더 전체를 실행 가능한 형태로 만들 수 있습니다.
 
-<mark>React 생성 폴더<mark>
-      
-      /2024/02.pdf - 24page
-      react를 사용하여 생성하면 Index.html, index.js, App.js 등이  public으로 폴더 및 파일로 생성됨
+<mark>React 생성 폴더</mark>
+ React를 생성 하면 자동으로 폴더가 생성 되고, public으로 Index.html, index.js, App.js 등 React와 관련된 폴더 및 파일로 생성되게 됩니다.
 
+      - <strong>App.js</strong> -
+
+
+      - <strong>index.js</strong> -
+
+
+      - <strong>index.html</strong> -
+      
       25page
       App.js -> index.js -> index.html 과정을 거치고 렌더링 되어 react 속성을 화면에 보여준다.
   (component)
