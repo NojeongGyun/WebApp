@@ -53,12 +53,15 @@ Bulid는 소스 코드와 관련 파일을 모아 실행 가능한 프로그램�
  React를 생성 하면 자동으로 폴더가 생성 되고, public으로 Index.html, index.js, App.js 등 React와 관련된 폴더 및 파일로 생성되게 됩니다.
 
       - <strong>App.js</strong> -
-
+      JSX 문법으로 화면에 보여줄 요소들을 작성하는 소스 코드
 
       - <strong>index.js</strong> -
-
+      App.js를 포함한 필요한 모듈들을 로드하고, 화면을 렌더링함
+      (Babel이라는 JSX를 Html 문법을 자동으로 변역해주는 역할이 들어 있음)
 
       - <strong>index.html</strong> -
+      브라우저가 실제로 읽을 수 언어이고, 서버가 응답을 하여 브라우저에 html을 회신하게 되어 화면에 보여진다.
+      
       
       25page
       App.js -> index.js -> index.html 과정을 거치고 렌더링 되어 react 속성을 화면에 보여준다.
