@@ -13,4 +13,8 @@ compoent
 ㄴfunction component
 ㄴclass component
 
+function return은 하나의 엘리멘트만 return가능하여 많은 정보를 div로 압축해 return하는 경우도 있음
+  
+
+  
 </pre>
