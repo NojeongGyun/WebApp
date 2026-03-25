@@ -13,7 +13,7 @@ compoent
 ㄴfunction component
 ㄴclass component
 
-function return은 하나의 엘리멘트만 return가능하여 많은 정보를 div로 압축해 return하는 경우도 있음
+
 
 
 element를 그룹화 시킨것이 Component이다.
@@ -30,5 +30,9 @@ p10
 
 block element - 이미 할당을 하였기 때문에 줄바꿈이 없음
 line element - 사용한 후 무조권 줄바꿈이 있음
+
+function return은 하나의 엘리멘트만 return가능하여 많은 정보를 div로 압축해 return하는 경우도 있음
+clock component - div로 묶어서 react에 return하는 1개의 묶음
+
   
 </pre>
