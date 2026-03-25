@@ -24,7 +24,8 @@ element를 그룹화 시킨것이 Component이다.
   
 p8 디프하고 순서
 
-
+p10
+ React 애플리케이션의 시작점 역할은 ID = root 로 시작합니다. index.html안에 id = root가 있음
   
   
 </pre>
