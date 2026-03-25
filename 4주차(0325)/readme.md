@@ -27,5 +27,8 @@ p8 디프하고 순서
 p10
  React 애플리케이션의 시작점 역할은 ID = root 로 시작합니다. index.html안에 id = root가 있음
   
+
+block element - 이미 할당을 하였기 때문에 줄바꿈이 없음
+line element - 사용한 후 무조권 줄바꿈이 있음
   
 </pre>
