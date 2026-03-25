@@ -34,8 +34,9 @@ line element - 사용한 후 무조권 줄바꿈이 있음
 function return은 하나의 엘리멘트만 return가능하여 많은 정보를 div로 압축해 return하는 경우도 있음
 clock component - div로 묶어서 react에 return하는 1개의 묶음
 p14 <clock/> 실습
-http://localhost:3000/clock_test1.html
 
+http://localhost:3000/clock_test1.html(시간을 1초간 현재시간을 바꾼다)
+{new Date().toLocaleTimeString()}이 코드가 계속 바뀌니깐 react에서는 바뀐부분의 엘리먼트만 바뀌기에 다른 구조는 건들지 않고 시간만 바뀐다.
   
   
 </pre>
