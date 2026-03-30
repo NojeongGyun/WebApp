@@ -14,16 +14,16 @@ Compoent는 HTML에서는 Ui를 구분하는 단위(Header, Menu, Content, Foote
 <strong>Function component</strong> -
 Function Component는 함수를 사용하여 JSX를 return 하고, UI를 구성하는 React 컴포넌트 문법입니다.
 ex) <code>function Welcome() {
-      return &lt;h1&gtHello, React Component!&lt;/h1&gt;
+      return &lt;h1&gt;Hello, React Component!&lt;/h1&gt;
     } </code>
 JSX문법으로 function 이름() { return 내용 } 이고, 해당 이름(Welcome())을 가진 함수를 호출 하게 되면 Hello, React Component!가 출력이 되고, 재사용도 가능합니다. 
 다만 주의 할 점은 하나의 부모태그로 감싸고 return을 해야 한다는 것입니다.
 ex) (1)<code>function Welcome() {
-      return &ith1&gtHello, React Component!&it/h1&gt &ith2&gtHi&it/h2&gt;  (x) 잘못된 예시(2개의 루트 요소가 있음)
+      return &it;h1&gt;Hello, React Component!&it;/h1&gt; &it;h2&gt;Hi&it;/h2&gt;  (x) 잘못된 예시(2개의 루트 요소가 있음)
       }</code>
 
     (2)<code>function Welcome() {
-      return &itdiv&gt&ith1&gtHello, React Component!&it/h1&gt&ith2&gtHi&it/h2&gt&it/div&gt;  (x) 올바른 예시(Div로 모두를 감싸 1개로 만든 후 return)
+      return &it;div&gt;&it;h1&gt;Hello, React Component!&it;/h1&gt;&it;h2&gt;Hi&it;/h2&gt;&it;/div&gt;  (x) 올바른 예시(Div로 모두를 감싸 1개로 만든 후 return)
       }</code>
   
 <strong>class component</strong> - 
@@ -32,8 +32,8 @@ render()을 통해서만 사용가능하고, 그 안에 두개의 루트요소�
 ex) <code>render() {
      return (
      <>
-      &ith1&gtHello&it/h1&gt
-      &ith2&gtHi&it/h2&gt
+      &it;h1&gt;Hello&it;/h1&gt;
+      &it;h2&gt;Hi&it;/h2&gt;
     </>
   );
 }</code>
