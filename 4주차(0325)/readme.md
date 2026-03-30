@@ -23,7 +23,7 @@ ex) (1)<code>function Welcome() {
       }</code>
 
     (2)<code>function Welcome() {
-      return &it;div&gt;&it;h1&gt;Hello, React Component!&it;/h1&gt;&it;h2&gt;Hi&it;/h2&gt;&it;/div&gt;  (x) 올바른 예시(Div로 모두를 감싸 1개로 만든 후 return)
+      return &it;div&gt;&it;h1&gt;Hello, React Component!&it;/h1&gt;&it;h2&gt;Hi&it;/h2&gt;&it;/div&gt;  (o) 올바른 예시(Div로 모두를 감싸 1개로 만든 후 return)
       }</code>
   
 <strong>class component</strong> - 
