@@ -15,7 +15,7 @@ Compoent는 HTML에서는 Ui를 구분하는 단위(Header, Menu, Content, Foote
 <strong>Function component</strong> -
 Function Component는 함수를 사용하여 JSX를 return 하고, UI를 구성하는 React 컴포넌트 문법입니다.
 ex) <pre><code>function Welcome() {
-      return <h1>Hello, React Component!</h1>;
+      return &lt;h1&gtHello, React Component!&lt;/h1&gt;
     } </code></pre>
 // JSX문법으로 function 이름() { return 내용 } 이고, 해당 이름(Welcome())을 가진 함수를 호출 하게 되면 Hello, React Component!가 출력이 되고, 재사용도 가능합니다. 
     
