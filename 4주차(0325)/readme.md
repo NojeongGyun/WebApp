@@ -21,7 +21,7 @@ ex) `function Welcome() {
     
    다만 주의 할 점은 하나의 부모태그로 감싸고 return을 해야 한다는 것입니다.
 ex) (1) function Welcome() {
-      return <h1>Hello, React Component!</h1> <h2>Hi</h2>;  (x) 잘못된 예시(두개의 엘리먼트가 있음)
+      return <h1>Hello, React Component!</h1> <h2>Hi</h2>;  (x) 잘못된 예시(두개가 있음)
       }
 
     (2) function Welcome() {
