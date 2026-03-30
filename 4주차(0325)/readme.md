@@ -14,6 +14,7 @@ Compoent는 HTML에서는 Ui를 구분하는 단위(Header, Menu, Content, Foote
 종류로는 #Function compoenet#와 #Class compoenet#가 있습니다.
 
 <strong>Function component</strong> -
+Function Component는 함수를 사용하여 JSX를 return 하고, UI를 구성하는 React 컴포넌트 문법입니다.
 
 <strong>class component</strong> - 
   
