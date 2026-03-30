@@ -1,8 +1,8 @@
 <pre>
 - <mark>Element</mark> -
  웹 페이지의 구조를 이루는 기본 단위(노드) 입니다.
-ㄴ - <> </> - Element
-ㄴ - <> </> 안에 있는 내용 - 컨텐츠 
+  ㄴ - <> </> - Element
+  ㄴ - <> </> 안에 있는 내용 - 컨텐츠 
 
 
 <strong>Rendering Element</strong> - 
