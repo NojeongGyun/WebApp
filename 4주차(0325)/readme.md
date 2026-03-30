@@ -41,12 +41,17 @@ ex) <code>render() {
 - <mark>React 변화 감지 후 변동 순서</mark> -
  초기 렌더링 -> 상태 변화 -> 비교(디프) -> 업데이트
 
- <strong>rendering</strong> -
+<strong>초기 rendering</strong> -
+React가 처음 실행되면, component가 렌더링되고 가상 DOM이 생성됩니다. 가상 Dom을 기반으로 실제 DOM을 만들어 브라우저에 렌더링됨
 
+<strong>상태 변화</strong> -
+component의 상태나 속성이 변경되면, React는 해당 component를 다시 rendering하여 새로운 가상 DOM을 생성합니다
 
-  
-p8 디프하고 순서
+<strong>비교(디프)</strong> -
+비교 혹은 디프 단계는 이전 가상 DOM과 새로운 가상 DOM을 비교하여 어떤 부분이 변경되었는지를 확인하는 과정입니다.
 
+<strong>업데이트</strong> -
+변경된 부분이 확인되면, React는 실제 DOM을 업데이트합니다. 업데이트 할 떄 변경된 부분과 하위 객체들만 바꾸어 최소한으로 변경하여 성능을 최적화 시킵니다.
 p10
  React 애플리케이션의 시작점 역할은 ID = root 로 시작합니다. index.html안에 id = root가 있음
   
