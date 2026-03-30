@@ -27,7 +27,16 @@ ex) (1)<code>function Welcome() {
       }</code>
   
 <strong>class component</strong> - 
-
+React에서 함수말고 class로 만드는 compoenet입니다.
+render()을 통해서만 사용가능하고, 그 안에 두개의 루트요소가 있으면 안됩니다.
+ex) <code>render() {
+     return (
+     <>
+      &ith1&gtHello&it/h1&gt
+      &ith2&gtHi&it/h2&gt
+    </>
+  );
+}</code>
 
 
 
