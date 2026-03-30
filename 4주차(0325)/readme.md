@@ -11,7 +11,7 @@
    
 - <mark>Compoent</mark> -
 Compoent는 HTML에서는 Ui를 구분하는 단위(Header, Menu, Content, Footer)이고, React에서는 화면을 나누는 재사용 가능한 단위입니다.
-종류로는 Function compoenet와 Class compoenet가 있습니다.
+종류로는 #Function compoenet#와 #Class compoenet#가 있습니다.
 
 <strong>Function component</strong> -
 
