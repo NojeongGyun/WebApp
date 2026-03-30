@@ -56,12 +56,5 @@ component의 상태나 속성이 변경되면, React는 해당 component를 다�
 <mark>Root Node</mark>
 Root Node는 제일 위에 위치한 최상위 객체이고, 모든 component를 담고 있습니다.
 React는 index.html의 id="root"를 시작점으로 component 트리를 부모에서 자식 방향으로 렌더링 할 수 있는걸 볼 수 있습니다.
-
-clock component - div로 묶어서 react에 return하는 1개의 묶음
-p14 <clock/> 실습
-
-http://localhost:3000/clock_test1.html(시간을 1초간 현재시간을 바꾼다)
-{new Date().toLocaleTimeString()}이 코드가 계속 바뀌니깐 react에서는 바뀐부분의 엘리먼트만 바뀌기에 다른 구조는 건들지 않고 시간만 바뀐다.
-  
-  
+ 
 </pre>
