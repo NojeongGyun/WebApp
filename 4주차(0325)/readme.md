@@ -6,10 +6,7 @@
 
 
 <strong>Rendering Element</strong> - 
-리액트 앱을 구성하는 가장 작은 블록들(JSX문법을 사용해 HTML의 태그와 같이 연결시킴)
-
-
-
+리액트 앱을 구성하는 가장 작은 블록들(JSX문법을 사용해 HTML의 태그처럼 작성 시킴)
 
 compoent
 ㄴfunction component
