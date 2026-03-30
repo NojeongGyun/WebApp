@@ -9,7 +9,7 @@
 리액트 앱을 구성하는 가장 작은 블록들(JSX문법을 사용해 HTML의 태그처럼 작성 시킴)
   
 - <mark>Compoent</mark> -
-Compoent는 HTML에서는 Ui를 구분하는 단위(Header, Menu, Content, Footer)이고, React에서는 화면을 나누는 재사용 가능한 단위입니다.
+Compoent는 HTML에서는 Ui를 구분하는 단위(Header, Menu, Content, Footer)이고, React에서는 화면을 나누는 재사용 가능한 단위입니다(element를 그룹화 시킨것이 Component)
 종류로는 #Function compoenet#와 #Class compoenet#가 있습니다.
 
 <strong>Function component</strong> -
@@ -34,7 +34,7 @@ ex) (1) function Welcome() {
 
 
 
-element를 그룹화 시킨것이 Component이다.
+
 
 
 캐스트케이팅 - 상위 객체가 바뀌면 하위 객체가 무조권 바꿔야한다. 그 작업을 하는게 케스트 케이팅이다.
