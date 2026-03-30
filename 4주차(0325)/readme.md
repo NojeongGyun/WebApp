@@ -8,7 +8,8 @@
 <strong>Rendering Element</strong> - 
 리액트 앱을 구성하는 가장 작은 블록들(JSX문법을 사용해 HTML의 태그처럼 작성 시킴)
 
-compoent
+   
+- <mark>Compoent</mark> -
 ㄴfunction component
 ㄴclass component
 
