@@ -17,6 +17,7 @@ Function Component는 함수를 사용하여 JSX를 return 하고, UI를 구성�
 ex) <code>function Welcome() {
       return &lt;h1&gtHello, React Component!&lt;/h1&gt;
     } </code>
+   
 // JSX문법으로 function 이름() { return 내용 } 이고, 해당 이름(Welcome())을 가진 함수를 호출 하게 되면 Hello, React Component!가 출력이 되고, 재사용도 가능합니다. 
     
    다만 주의 할 점은 하나의 부모태그로 감싸고 return을 해야 한다는 것입니다.
