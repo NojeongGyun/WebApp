@@ -19,7 +19,7 @@ ex) <code>function Welcome() {
 JSX문법으로 function 이름() { return 내용 } 이고, 해당 이름(Welcome())을 가진 함수를 호출 하게 되면 Hello, React Component!가 출력이 되고, 재사용도 가능합니다. 
 다만 주의 할 점은 하나의 부모태그로 감싸고 return을 해야 한다는 것입니다.
 ex) (1)<code>function Welcome() {
-      return &ith1&gtHello, React Component!&it/h1&gt &ith2&gtHi&it/h2&gt;  (x) 잘못된 예시(retrun할 값이 두개가 있음)
+      return &ith1&gtHello, React Component!&it/h1&gt &ith2&gtHi&it/h2&gt;  (x) 잘못된 예시(2개의 루트 요소가 있음)
       }</code>
 
     (2)<code>function Welcome() {
