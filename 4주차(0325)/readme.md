@@ -52,9 +52,10 @@ component의 상태나 속성이 변경되면, React는 해당 component를 다�
 
 <strong>업데이트</strong> -
 변경된 부분이 확인되면, React는 실제 DOM을 업데이트합니다. 업데이트 할 떄 변경된 부분과 하위 객체들만 바꾸어 최소한으로 변경하여 성능을 최적화 시킵니다.
-p10
- React 애플리케이션의 시작점 역할은 ID = root 로 시작합니다. index.html안에 id = root가 있음
-  
+
+<mark>Root Node</mark>
+Root Node는 제일 위에 위치한 최상위 객체이고, 모든 component를 담고 있습니다.
+React는 index.html의 id="root"를 시작점으로 component 트리를 부모에서 자식 방향으로 렌더링 할 수 있는걸 볼 수 있습니다.
 
 block element - 이미 할당을 하였기 때문에 줄바꿈이 없음
 line element - 사용한 후 무조권 줄바꿈이 있음
