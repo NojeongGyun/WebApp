@@ -19,11 +19,11 @@ ex) <code>function Welcome() {
 JSX문법으로 function 이름() { return 내용 } 이고, 해당 이름(Welcome())을 가진 함수를 호출 하게 되면 Hello, React Component!가 출력이 되고, 재사용도 가능합니다. 
 다만 주의 할 점은 하나의 부모태그로 감싸고 return을 해야 한다는 것입니다.
 ex) (1)<code>function Welcome() {
-      return &it;h1&gt;Hello, React Component!&it;/h1&gt; &it;h2&gt;Hi&it;/h2&gt;  (x) 잘못된 예시(2개의 루트 요소가 있음)
+      return &lt;h1&gt;Hello, React Component!&lt;/h1&gt; &lt;h2&gt;Hi&lt;/h2&gt;  (x) 잘못된 예시(2개의 루트 요소가 있음)
       }</code>
 
     (2)<code>function Welcome() {
-      return &it;div&gt;&it;h1&gt;Hello, React Component!&it;/h1&gt;&it;h2&gt;Hi&it;/h2&gt;&it;/div&gt;  (o) 올바른 예시(Div로 모두를 감싸 1개로 만든 후 return)
+      return &lt;div&gt;&lt;h1&gt;Hello, React Component!&lt;/h1&gt;&lt;h2&gt;Hi&lt;/h2&gt;&lt;/div&gt;  (o) 올바른 예시(Div로 모두를 감싸 1개로 만든 후 return)
       }</code>
   
 <strong>class component</strong> - 
@@ -32,8 +32,8 @@ render()을 통해서만 사용가능하고, 그 안에 두개의 루트요소�
 ex) <code>render() {
      return (
      <>
-      &it;h1&gt;Hello&it;/h1&gt;
-      &it;h2&gt;Hi&it;/h2&gt;
+      &lt;h1&gt;Hello&lt;/h1&gt;
+      &lt;h2&gt;Hi&lt;/h2&gt;
     </>
   );
 }</code>
