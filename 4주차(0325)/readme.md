@@ -1,9 +1,14 @@
 <pre>
-Element -  Dom을 구성하는 요소
-Rendering Element - 리액트 앱을 구성하는 가장 작은 블록들(JSX문법을 사용해 HTML의 태그와 같이 연결시킴)
+- <mark>Element</mark> -
+ 웹 페이지의 구조를 이루는 기본 단위(노드) 입니다.
+ㄴ - <> </> - Element
+ㄴ - <> </> 안에 있는 내용 - 컨텐츠 
 
-<> </> - Element
-<> </> 안에 있는 내용 - 컨텐츠
+
+<strong>Rendering Element</strong> - 
+리액트 앱을 구성하는 가장 작은 블록들(JSX문법을 사용해 HTML의 태그와 같이 연결시킴)
+
+
 
 
 compoent
