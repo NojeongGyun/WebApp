@@ -7,15 +7,27 @@
 
 <strong>Rendering Element</strong> - 
 리액트 앱을 구성하는 가장 작은 블록들(JSX문법을 사용해 HTML의 태그처럼 작성 시킴)
-
-   
+  
 - <mark>Compoent</mark> -
 Compoent는 HTML에서는 Ui를 구분하는 단위(Header, Menu, Content, Footer)이고, React에서는 화면을 나누는 재사용 가능한 단위입니다.
 종류로는 #Function compoenet#와 #Class compoenet#가 있습니다.
 
 <strong>Function component</strong> -
 Function Component는 함수를 사용하여 JSX를 return 하고, UI를 구성하는 React 컴포넌트 문법입니다.
+ex) function Welcome() {
+      return <h1>Hello, React Component!</h1>;
+    }
+// JSX문법으로 function 이름() { return 내용 } 이고, 해당 이름(Welcome())을 가진 함수를 호출 하게 되면 Hello, React Component!가 출력이 되고, 재사용도 가능합니다. 
+    
+   다만 주의 할 점은 하나의 부모태그로 감싸고 return을 해야 한다는 것입니다.
+ex) (1) function Welcome() {
+      return <h1>Hello, React Component!</h1> <h2>Hi</h2>;  (x) 잘못된 예시(두개의 엘리먼트가 있음)
+      }
 
+    (2) function Welcome() {
+      return <div><h1>Hello, React Component!</h1><h2>Hi</h2></div>;  (x) 올바른 예시(Div로 모두를 감싸 1개로 만든 후 return)
+      }
+  
 <strong>class component</strong> - 
   
 
