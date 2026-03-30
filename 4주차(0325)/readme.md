@@ -23,7 +23,7 @@ ex) (1)<code>function Welcome() {
       }</code>
 
     (2)<code>function Welcome() {
-      return &lt;div&gt;&lt;h1&gt;Hello, React Component!&lt;/h1&gt;&lt;h2&gt;Hi&lt;/h2&gt;&lt;/div&gt;  (o) 올바른 예시(Div로 모두를 감싸 1개로 만든 후 return)
+      return &lt;div&gt;&lt;h1&gt;Hello, React Component!&lt;/h1&gt;&lt;h2&gt;Hi&lt;/h2&gt;&lt;/div&gt;  (o) 올바른 예시(Div로 모두를 감싸 1개로 만든 후 return) - Clock component 방식 
       }</code>
   
 <strong>class component</strong> - 
@@ -57,10 +57,6 @@ component의 상태나 속성이 변경되면, React는 해당 component를 다�
 Root Node는 제일 위에 위치한 최상위 객체이고, 모든 component를 담고 있습니다.
 React는 index.html의 id="root"를 시작점으로 component 트리를 부모에서 자식 방향으로 렌더링 할 수 있는걸 볼 수 있습니다.
 
-block element - 이미 할당을 하였기 때문에 줄바꿈이 없음
-line element - 사용한 후 무조권 줄바꿈이 있음
-
-function return은 하나의 엘리멘트만 return가능하여 많은 정보를 div로 압축해 return하는 경우도 있음
 clock component - div로 묶어서 react에 return하는 1개의 묶음
 p14 <clock/> 실습
 
