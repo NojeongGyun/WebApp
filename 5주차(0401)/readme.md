@@ -15,14 +15,16 @@
   2024/04.pdf page 15
   props(프로퍼티 - 속성)
 
+[ - Props 예시 - ]
+
 [App.js]
 import React from 'react';
 import MyComponent from './MyComponent';
 function App() {
-  return (
-    &it;div&gt;&it;MyComponent name="HTML" /&gt;
-    &it;MyComponent name="Javascript" //&gt;
-    &it;MyComponent name="React" //&gt;&it;/div/&gt;
+  return (                                                      - return될때 props.name을 MyComponent에서 칠 때 해당 적은 내용을 리턴
+    &it;div&gt;&it;MyComponent name="HTML" /&gt;                -  Mycomponent.js에 props.name 호출하면 HTML을 리턴 시킴
+    &it;MyComponent name="Javascript" //&gt;                    -  Mycomponent.js에 props.name 호출하면 Javascript을 리턴 시킴
+    &it;MyComponent name="React" //&gt;&it;/div/&gt;            -  Mycomponent.js에 props.name 호출하면 React을 리턴 시킴
   );
 }
 export default App;
