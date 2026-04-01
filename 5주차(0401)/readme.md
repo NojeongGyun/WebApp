@@ -23,8 +23,8 @@ import MyComponent from './MyComponent';
 function App() {
   return (                                                      - return될때 props.name을 MyComponent에서 칠 때 해당 적은 내용을 리턴
     &it;div&gt;&it;MyComponent name="HTML" /&gt;                -  Mycomponent.js에 props.name 호출하면 HTML을 리턴 시킴
-    &it;MyComponent name="Javascript" //&gt;                    -  Mycomponent.js에 props.name 호출하면 Javascript을 리턴 시킴
-    &it;MyComponent name="React" //&gt;&it;/div/&gt;            -  Mycomponent.js에 props.name 호출하면 React을 리턴 시킴
+    &it;MyComponent name="Javascript" /&gt;                    -  Mycomponent.js에 props.name 호출하면 Javascript을 리턴 시킴
+    &it;MyComponent name="React" /&gt;&it;/div/&gt;            -  Mycomponent.js에 props.name 호출하면 React을 리턴 시킴
   );
 }
 export default App;
