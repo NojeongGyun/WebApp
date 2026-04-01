@@ -32,7 +32,7 @@ export default App;
 [MyComponent.js]
 import React from 'react';
 const MyComponent = (props) => {
-    return <div&gt; {props.name}로 만드는 테스트 페이지&it;/div&gt;;
+    return &it;div&gt; {props.name}로 만드는 테스트 페이지&it;/div&gt;;
 };
 export default MyComponent;
 
