@@ -15,7 +15,7 @@
   2024/04.pdf page 15
   props(프로퍼티 - 속성)
 
-  <MyComponent name="React" /> 라는건 Mycomponent.js 의 파일과 이름이 React인 결과물을 링크 시킨다. 
+  &it;MyComponent name="React" /&gt; 라는건 Mycomponent.js 의 파일과 이름이 React인 결과물을 링크 시킨다. 
 
   
 </pre>
