@@ -15,7 +15,24 @@
   2024/04.pdf page 15
   props(프로퍼티 - 속성)
 
-  &it;MyComponent name="React" /&gt; 라는건 Mycomponent.js 의 파일과 이름이 React인 결과물을 링크 시킨다. 
+[App.js]
+import React from 'react';
+import MyComponent from './MyComponent';
+function App() {
+  return (
+    &it;div&gt;&it;MyComponent name="HTML" /&gt;
+    &it;MyComponent name="Javascript" //&gt;
+    &it;MyComponent name="React" //&gt;&it;/div/&gt;
+  );
+}
+export default App;
+
+[MyComponent.js]
+import React from 'react';
+const MyComponent = (props) => {
+    return &it;div&gt; {props.name}로 만드는 테스트 페이지&it;/div&gt;;
+};
+export default MyComponent;
 
   
 </pre>
