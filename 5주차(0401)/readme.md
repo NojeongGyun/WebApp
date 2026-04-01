@@ -41,6 +41,6 @@ export default MyComponent;
 2024/04.pdf page 32
 화살표 함수
 
-  
+2024/04.pdf page 43
 
 </pre>
