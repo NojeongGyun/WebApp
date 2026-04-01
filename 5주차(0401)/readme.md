@@ -18,6 +18,7 @@
 [ - Props 예시 - ]
 
 [App.js]
+<code>
 import React from 'react';
 import MyComponent from './MyComponent';
 function App() {
@@ -28,7 +29,8 @@ function App() {
   );
 }
 export default App;
-
+</code>
+  
 [MyComponent.js]
 import React from 'react';
 const MyComponent = (props) => {
