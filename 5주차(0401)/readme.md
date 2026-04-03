@@ -39,6 +39,7 @@ const MyComponent = (props) => {
 };
 export default MyComponent;
 
+- 예시를 보면 알 수 있듯이 
 2024/04.pdf page 32
 화살표 함수
 
