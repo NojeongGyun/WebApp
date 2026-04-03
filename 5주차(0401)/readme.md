@@ -12,9 +12,10 @@
   Component는 항상 대문자로 시작해야 되고, HTML태그는 소문자로 적어야합니다.
   만약 Component를 소문자로 적게되면 Dom태그로 인식하여 사용자가 원치 않게 디자인이 될 수 있기 떄문입니다.
 
-  2024/04.pdf page 15
-  props(프로퍼티 - 속성)
-
+  <strong>Props</strong> -
+  Props는 상위Component가 하위Component에 값을 전달할 때 사용합니다.
+  단방향 성질과 Props를 수정할 수 있다는 특징을 가집니다. 
+    
 [ - Props 예시 - ]
 
 [App.js]
