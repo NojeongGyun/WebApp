@@ -39,7 +39,8 @@ const MyComponent = (props) => {
 };
 export default MyComponent;
 
-- 예시를 보면 알 수 있듯이 
+- 예시를 보면 알 수 있듯이 상위 컴포넌트인 App.js가 하위 컴포넌트인 MyComponent로 props를 통해 단방향으로 데이터를 전달하는 걸 알 수 있습니다.
+(상위) index.hmtl -> index.js -> App.js -> MyComponent (하위)
 2024/04.pdf page 32
 화살표 함수
 
