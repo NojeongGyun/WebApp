@@ -1,3 +1,4 @@
+2024/05.pdf p1, p2 
 - Component State - 
 랜더링 결과물에 영향을 주는 정보
 Component(props)는 원래 값을 바꿀 수 없는데, Component State을 하면 변경 가능하다.
