@@ -1,3 +1,4 @@
+<pre>
 2024/05.pdf p1, p2 
 - Component State - 
 랜더링 결과물에 영향을 주는 정보
@@ -15,3 +16,18 @@ Counter.js에서 onclick이라는 이벤트가 발생하면 함수가 실행된�
 
 **람다 함수** 
 매개 변수와 반환값을 간단하게 적는 함수 const add = (a, b) => a + b;
+
+
+<code>
+import { useState } from 'react';
+const Counter = () => {
+const [count, setCount] = useState(0); // counter은 전역변수 느낌이고, setCount는 변환되는 값으로 setCount가 counter에 바뀐값을 전달한다.
+console.log(count);
+const plus = () => {
+setCount(count + 1);
+}
+const minus = () => {
+setCount(count - 1);
+}
+</code>
+</pre>
