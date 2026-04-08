@@ -4,4 +4,4 @@ Component(props)는 원래 값을 바꿀 수 없는데, Component State을 하�
 state - 화면 변경
 state는 이벤트로 바뀌면 화면 변경
 
-
+객체가 바뀌면 화면도 바뀜(자동으로)
