@@ -23,7 +23,7 @@ state는 컴포넌트 내부에서 관리되는 변수이며, state 값이 변�
 **useState**
 useState는 초기값을 인자로 받아 상태 값과 상태 변경 함수를 반환하며, 이를 구조 분해 할당으로 각각의 변수에 저장한다.
            
-
+<strong>State 설정 및 사용</strong>
             
 
 
