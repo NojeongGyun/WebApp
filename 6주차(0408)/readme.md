@@ -32,34 +32,10 @@ this.state에 직접적으로 값을 설정할 수 있는 건 유일하게, 처�
 
 
 - 화살표 함수 -
-자바스크립트에 도입된 **람다 함수**
-상위 스코프의 this를 상속받음
+자바스크립트에 도입된 **람다 함수**입니다. const add = (a, b) => {return a + b;};
+화살표함수는 this는 자기 객체를 참조하지 않고, 바깥 객체를 참조하여 값을 가집니다.
 
 **람다 함수** 
 매개 변수와 반환값을 간단하게 적는 함수 const add = (a, b) => a + b;
-
-
-<code>
-import { useState } from 'react';
-const Counter = () => {
-const [count, setCount] = useState(0); // counter은 전역변수 느낌이고, setCount는 변환되는 값으로 setCount가 counter에 바뀐값을 전달한다.
-console.log(count);
-const plus = () => {
-setCount(count + 1);
-}
-const minus = () => {
-setCount(count - 1);
-}
-</code>
-
-p8, 9
-           
-
-
-p13 Component state
-p14~ 18 Class Component 설명
-p18주의사항 중요
-
-p21까지 진도나감
 
 </pre>
