@@ -8,7 +8,7 @@ React 함수 안에서만 hook을 요청해야됨(일반 함수에서 hook을 �
 최상위(at the Top Level)에서만 Hook을 호출해야 한다.(if, for 등 반복문에 쓰면 안됨)
 이벤트 헨들러에서 쓰지 말아야 함
 
-
+p9 usestate 실습 
 
 
 
